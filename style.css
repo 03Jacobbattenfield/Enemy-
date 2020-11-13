@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:lightblue;
+}
+#case{
+    border:1px solid black;
+    width:201px;
+    height:250px;
+}
+#health{
+    border:1px solid black;
+    width:200px;
+    height:20px;
+}
+#full-health{
+    color:green;
+    font-weight: bold;
+}
+#current-health{
+    color:red;
+    font-weight:bold;
+}
+#bar{
+    background-color: purple;
+    height:20px;
+    width:200px;
+}
+#enemy{
+    position: relative;
+    top:10px;
+    left:30px;
+    height:100px;
+    width:100px;
+    background-color: blue;
+    border-radius: 50%;
+    border:5px solid green;
+}
+#attack-btn{
+    position: relative;
+    top:20px;
+    left:50px;
+    width:75px;
+    height:30px;
+    background-color: red;
+    border-radius: 30px;
+    border:1px solid yellow;
+}
+#attack-btn:hover{
+    background-color: maroon;
+    border:1px solid white;
+}
+#attack-btn:active{
+    translate: 3px 3px;
+}
+.hurt{
+    background-color: yellow;
+}
+#game-end{
+    visibility: hidden;
+}
